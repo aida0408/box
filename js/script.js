@@ -38,7 +38,7 @@ function cssGenerator() {
     outputY.textContent = offsetY.value
     outputSpread.textContent = spread.value
 
-    console.log(outSet.checked)
+    console.log(inSet.checked)
     console.log(borderRadius.value)
     box.style.borderRadius = borderRadius.value + "%"
     box.style.boxShadow = `${offsetX.value}px ${offsetY.value}px ${blur.value}px ${spread.value}px ${shadowColor.value}`

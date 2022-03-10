@@ -2,17 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgba(236, 225, 233, 0.93);
+    background-color: #000000;
 }
 a{
     text-decoration:none;
     display: inline-block;
 
 }
-ul li{
-    list-style: none;
-    display: inline-block;
-}
+
 .container{
     max-width: 1110px;
     margin: 0 auto;
@@ -36,7 +33,7 @@ ul li{
 .panel{
     margin: 15px 20px;
     font-size: 20px;
-    color: #555555;
+    color: #2b0dd9;
 }
 .text{
     margin-bottom: 10px;
@@ -47,13 +44,13 @@ ul li{
 .box{
     width: 200px;
     height: 200px;
-    background-color: purple;
+    background-color: #2b0dd9;
     margin: 20px;
 }
 .out{
     height: 100px;
     max-width: 100%;
-    background-color: grey;
+    background-color:#2b0dd9;
     padding: 25px;
-    margin: 50px 10px;
+    margin: 60px 30px;
 }
